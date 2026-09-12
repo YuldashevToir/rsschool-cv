@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # rsschool-cv
 
 Here is the link to my CV webpage:
