@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#code">Code Examples</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <img src="img/myPhoto.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Yuldashev Toir</h1>
+            <h2>Frontend Developer</h2>
+            <p>I am the person who is passionate about beginning a new chapter in his personal and professional life with frontend development.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: <a href="mailto:reindeerinthedarkforest@gmail.com" rel="noopener">reindeerinthedarkforest@gmail.com</a></li>
+                <li>Discord:<span> toiryuldashev_77093</span></li>
+                <li>GitHub: <a href="https://github.com/YuldashevToir" target="_blank" rel="noopener">YuldashevToir</a></li>
+                <li>Telegram:<a href="https://t.me/toiryuldashev" target="_blank" rel="noopener"> ToirYuldashev</a></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript</li>
+                <li>Tools: Git, GitHub, VS Code, Figma</li>
+                <li>Frameworks: React</li>
+                <li>Languages: Uzbek(C2), Russian(C2), English(C1)</li>
+            </ul>
+        </section>
+
+          <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>2017-2021: Financial Institute of Tashkent</li>
+                <li>2024: Completed and received certification in Teaching English as a Foreign Language</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                 <li>2024-present: Different IT courses on Udemy, YouTube and It-Incubator</li>
+            </ul>
+        </section>
+        <section id="projects" class="cv-card">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>rsschool-cv</strong> 
+                    (<a href="https://github.com/rsschool-cv" target="_blank" rel="noopener">Source Code</a>) 
+                    — My RS school CV educational project
+                </li>
+            </ul>
+        </section>
+        
+        <section id="code">
+             <h2>Code Examples</h2>
+           <p>Below is my JavaScript solution for the Codewars problem <strong>"Merge two sorted arrays into one"</strong>:</p>
+            <pre><code>function mergeArrays(arr1, arr2) {
+  if (arr1.length === 0 &amp;&amp; arr2.length === 0) return [];
+  
+  let sortedArr = arr1.concat(arr2).sort((a, b) =&gt; a - b);
+  let uniqueSortedArr = [...new Set(sortedArr)];
+  
+  return uniqueSortedArr;
+    }
+            </code></pre>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>
+                &copy; 2026 <a href="https://github.com/YuldashevToir" target="_blank" rel="noopener">Yuldashev Toir</a> 
+            </p>
+            <a href="https://rs.school/courses/short-track" target="_blank" rel="noopener">
+            <img src="img/LogoRS.png" alt="RS School Logo" class="logoRS">
+            </a>
+        </div>
+    </footer>
+
 </body>
 </html>
+
+
+ 
