@@ -2,5 +2,6 @@
 # rsschool-cv
 
 Here is the link to my CV webpage:
-https://YuldashevToir.github.io/rsschool-cv/
+ https://yuldashevtoir.github.io/rsschool-cv/
+
 
